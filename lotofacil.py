@@ -26,12 +26,13 @@ def verificarAcertos(aposta):
 print("****************************************************************************************")
 print("Concurso mais recente:", concurso.numeroConcursoProximo() - 1)
 print("Resultado do concurso:", resultado)
-
 print("\n")
-
 print("Aposta A:", apostaA)
 verificarAcertos(apostaA)
 print("\n")
 print("Aposta B:", apostaB)
 verificarAcertos(apostaB)
+print("\n")
+
+print("Data do próximo concurso:", concurso.dataProximoConcurso())
 print("****************************************************************************************")
